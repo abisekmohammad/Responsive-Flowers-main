@@ -1,0 +1,124 @@
+*{
+   box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F5F8FF;
+    font-family: "Inter", sans-serif;
+
+}
+* h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+ }
+
+ * p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #8987A1;
+ }
+.primary_font{
+    font-family: "Inter", sans-serif;
+}
+.secondary_font {
+    font-family: "Noto Serif", serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0px auto 0px auto;
+    border: red 2px solid;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+.menu{
+    display: flex;
+    gap: 48px;
+}
+.color1 {
+    color: #252432;
+    font-size: 18px;
+
+}
+.home{
+    font-weight: bolder;
+}
+
+.color2 {
+    color: #8987A1;
+    font-size: 18px;
+    font-weight:400;}
+.color3{
+    color: #E95A08;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+.banner{
+    margin-top: 120px;
+    display: flex;
+    align-items: end;
+}
+.h1color{
+    color: #E95A08;
+}
+.bannerh1{
+    font-size:65px ;
+    font-weight: 800;
+}
+.bannerp{
+    margin-top: 13px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #8987A1;
+}
+.content_img{
+    display: flex;
+}
+.ourplants{
+    margin-top: 120px;
+    margin-bottom: 40px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.pplants{
+    width: 888px;
+    height: 22px;
+    margin: 20px auto 0px auto;
+}
+
+@media screen and ( max-width: 990px) {
+    .about_us{
+        display: none;
+    }
+         .home {
+             display: none;
+         }
+         .shop{
+            display: none;
+         }
+         .logo {
+            width: 63px;
+            height: 38px;
+         }
+
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+}
