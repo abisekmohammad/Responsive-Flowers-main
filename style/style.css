@@ -101,7 +101,205 @@ nav ul li a{
     margin: 20px auto 0px auto;
 }
 
-@media screen and ( max-width: 990px) {
+.products_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 70px;
+}
+.products_1{
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+.p_img{
+    margin-bottom: 30px;
+}
+.p_title{
+    margin-bottom: 20px;
+    color:#252432;
+}
+.p_price{
+    margin-bottom: 25px;
+    color: #252432;
+    font-weight: 600;
+}
+.btn1{
+    padding: 25px 50px;
+    background-color: #E95A08;
+    border: none;
+    width: 100%;
+
+}
+.products_card button a{
+    text-decoration: none;
+    background-color: #E95A08;
+    color: #F5F8FF;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.aboutsection{
+    margin-top: 210px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.img2{
+    background-color: transparent;
+    position: absolute;
+    top: -120px;
+    right: 460px;
+    width: 285px;
+    height: 285px;
+}
+.textsection{
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 50px;
+}
+.textsection h2{
+    margin-bottom: 30px;
+}
+.textsection ul li{
+    margin-bottom: 20px;
+    color: #8987A1;
+    font-size: 18px;
+    font-weight: 400;
+}
+.imgbtn{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgb1{
+    border-radius: 22px;
+}
+.imgbtn1{
+    position: relative;
+
+}
+.imoff1{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    background-color: transparent;
+}
+.imgb1{
+    filter: brightness(40%);
+}
+.ih4{
+   background-color: transparent;
+    color: #F5F8FF;
+    margin-bottom: 10px;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.im1{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.im1 a{
+    background-color: transparent;
+    text-decoration: underline;
+    color: #F5F8FF;
+    font-size: 18px;
+}
+.imoff2 {
+    position: absolute;
+    bottom: 80px;
+    right: 100px;
+    background-color: transparent;
+}
+.imgbtn2{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.imoff3{
+    position: absolute;
+    top: 180px;
+    left: 230px;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ih3{
+    background-color: transparent;
+    color: #F5F8FF;
+    margin-bottom: 10px;
+    font-family: "Noto Serif", serif;
+    font-size: 30px;
+    font-weight: bold;}
+.imgbtn2 a{
+    background-color: transparent;
+    color: #F5F8FF;
+    text-decoration: underline;
+    font-size: 24px;
+}
+.join{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    padding: 200px ;
+}
+.join h2{
+    background-color: transparent;
+    color: #F5F8FF;
+    margin-bottom: 30px;
+}
+.email1{
+    width: 75%;
+    height: 50px;
+    border: none;
+    padding-left: 30px;
+    font-size: 18px;
+    
+}
+.btn2{
+    width: 25%;
+    height: 50px;
+    border: none;
+    background-color: #E95A08;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F5F8FF;
+    margin-left: -10px;
+}
+
+
+
+
+@media screen and ( max-width: 576px) {
+
+    .bannerh1{
+        font-size: 40px;
+    }
+
+    * h2 {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Noto Serif", serif;
+        }
+        .color3{
+            font-size: 30px;
+        }
+    
+        * p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: "Inter", sans-serif;
+            color: #8987A1;
+        }
     .about_us{
         display: none;
     }
@@ -115,10 +313,57 @@ nav ul li a{
             width: 63px;
             height: 38px;
          }
+    nav{
+        margin: 0 10px 0 10px;
+    }
 
     .banner{
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
+        .products_card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 70px;
+            
+}
+    .pplants {
+    width: 80%;
+    height: 22px;
+    margin: 20px auto 0px auto;}
+    .pp{
+        display: none;
+    }
+        .aboutsection {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .img2 {
+            display: none;
+        }
+                .imgbtn {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .imgbtn img{
+                    width: 100%;
+                    height: 100%;
+              
+                }
+        .imoff3 {
+            top: 100px;
+            left: 100px;}
+        .ih3{
+            font-size: 24px;
+        }
+
+        .imgbtn2 a {
+            font-size: 18px;
+        }
+
+
 }
