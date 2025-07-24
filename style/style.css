@@ -313,6 +313,9 @@ nav ul li a{
     .bannerh1{
         font-size: 40px;
     }
+    .content_text{
+        margin: 10px;
+    }
 
     * h2 {
             font-size: 30px;
@@ -377,15 +380,32 @@ nav ul li a{
                 .imgbtn {
                     display: flex;
                     flex-direction: column;
+                    align-items: stretch;
                 }
                 .imgbtn img{
                     width: 100%;
                     height: 100%;
               
                 }
+
+          .ourplants {
+                margin-top: 60px;}
+        .imoff1 {
+                 position: absolute;
+                 top: 130px;
+                right: 160px;
+                background-color: transparent;
+                        }
+                .imoff2 {
+                    position: absolute;
+                    bottom: 150px;
+                    right: 180px;
+                    background-color: transparent;
+                }
+                
         .imoff3 {
-            top: 100px;
-            left: 100px;}
+            top: 150px;
+            left: 150px;}
         .ih3{
             font-size: 24px;
         }
@@ -403,5 +423,10 @@ nav ul li a{
 .footer1 {
     padding: 0px;
 }
+.textsection {
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 20px;}
+
 
 }
