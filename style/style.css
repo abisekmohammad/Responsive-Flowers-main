@@ -27,7 +27,7 @@
 .container{
     max-width: 1140px;
     margin: 0px auto 0px auto;
-    border: red 2px solid;
+    /* border: red 2px solid; */
 }
 nav{
     display: flex;
@@ -125,7 +125,7 @@ nav ul li a{
     font-weight: 600;
 }
 .btn1{
-    padding: 25px 50px;
+    padding: 15px 50px;
     background-color: #E95A08;
     border: none;
     width: 100%;
@@ -244,8 +244,7 @@ nav ul li a{
     font-size: 24px;
 }
 .join{
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin: 120px 0px 80px 0px;
     align-items: center;
     text-align: center;
     background-image: url(../assets/news-letter-bg.png);
@@ -275,7 +274,37 @@ nav ul li a{
     color: #F5F8FF;
     margin-left: -10px;
 }
+.footerall{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    margin-bottom: 50px;
+   
+}
 
+.footer1 img{
+    margin-bottom: 20px;
+}
+.footer1{
+    margin-right: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.foop{
+    margin-right: 70px;
+}
+.footerall ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.footerall ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 18px;
+    
+}
+.footer4 img{
+   margin-left: 24px;
+    
+}
 
 
 
@@ -364,6 +393,15 @@ nav ul li a{
         .imgbtn2 a {
             font-size: 18px;
         }
-
+.join {
+    padding: 100px 30px 100px 30px;
+    background-repeat: no-repeat;
+}
+.footerall {
+    display: block;
+    margin: 50px auto 50px 20px;}
+.footer1 {
+    padding: 0px;
+}
 
 }
